@@ -45,7 +45,7 @@
                         @if ($all_companies !== NULL)
                         <option value="">Select Company</option>
                         @foreach ($all_companies as $item)
-                            <option value="2">{{$item->name}}</option>
+                            <option value="{{$item->id}}">{{$item->name}}</option>
                         @endforeach
                         @else
                         <p>No Company Found</p>
